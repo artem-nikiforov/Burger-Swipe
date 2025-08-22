@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+<h1>Собери Воппер</h1>
+
+<div class="otstup-XL"></div>
+
+<div class="swiper">
+  <div class="swiper-wrapper">
+    <!-- data-answer = "left" или "right" для проверки -->
+    
+    <div class="swiper-slide" data-answer="right">
+      <img class="cover-photo" src="Img/w_cutl.jpg">
+      <div class="card-text">
+        <h2>Котлета Воппер</h2>
+        <p>Кладём?</p>
+      </div>
+    </div>
+    
+    <div class="swiper-slide" data-answer="left">
+      <img class="cover-photo" src="Img/brioche.jpg">
+      <div class="card-text">
+        <h2>Булочка</h2>
+        <p>Добавляем?</p>
+      </div>
+    </div>
+    
+    <div class="swiper-slide" data-answer="right">
+      <img class="cover-photo" src="Img/fries.jpg">
+      <div class="card-text">
+        <h2>Картошка фри</h2>
+        <p>Добав?</p>
+      </div>
+    </div>
+    
+    <div class="swiper-slide" data-answer="left">
+      <img class="cover-photo" src="Img/ketchup.jpg">
+      <div class="card-text">
+        <h2>Кетчуп</h2>
+        <p>Нужен?</p>
+      </div>
+    </div>
+  
+  </div>
+</div>
+
+
+
+
+<div id="lottie-overlay">
+  <dotlottie-player id="confettiPlayer"
+                    src="./Confetti%20Animation.lottie"
+                    autoplay="false"
+                    loop="false">
+  </dotlottie-player>
+</div>
+
+<script type="module" src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
