@@ -1,20 +1,20 @@
 @font-face {
     font-family: 'Flame';
-    src: url('fonts/FLAME-BOLD.OTF') format('opentype');
+    src: url('fonts/FLAME-BOLD.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Flame';
-    src: url('fonts/FLAME-REGULAR.OTF') format('opentype');
+    src: url('fonts/FLAME-REGULAR.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Rotonda';
-    src: url('fonts/Rotonda_Medium.otf') format('opentype');
+    src: url('fonts/Rotonda_Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
